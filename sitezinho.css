@@ -1,0 +1,183 @@
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+      font-family: "Archivo Black";
+      color: #ffffff;
+  }
+
+  body {
+    background-color: #111111;
+  }
+
+  div {
+    box-sizing: border-box;
+  }
+  
+  .title {
+    height: 95px;
+      text-align: center;
+      font-size: 15px;
+      background-color: #3242a8;
+      color: white;
+      border-bottom: 0px;
+      border-top: 7px;
+      border-left: 20px;
+      border-right: 20px;
+      border-style: solid;
+      border-color: #3242a8;
+  }
+  
+  #brokenline {
+      border-bottom: 15px;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-style: solid;
+      border-color: #3242a8;
+    }
+  
+  #estrutura {
+    border-bottom: 15px;
+      border-top: 15px;
+      border-left: 0px;
+      border-right: 0px;
+      border-style: solid;
+      border-color: #111111;
+      margin: 100px solid #111111;
+  }
+  
+  #indice {
+    border-bottom: 15px;
+    border-top: 15px;
+    border-left: 15px;
+    border-right: 15px;
+    border-style: solid;
+    border-color: #111111;
+  }
+  
+  .titani {
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: #3242a8;
+    text-align: center;
+  }
+
+  .titanimg {
+    width: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+    border: 5px solid #111111;
+    background-color: #111111;
+  }
+  
+  .corpot {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: justify;
+    border: 50px solid rgb(0, 0, 0, 0);
+  }
+  
+  #impretfel {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .botao {
+    color: #FFFFFF;
+    background-color: #3242a8;
+    border: none;
+  }
+
+  .botao:hover {
+    background-color: #435bf4;
+  }
+
+  .botao:active {
+    background-color: #090d23;
+  }
+
+  .albotao {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .estrcorpot {
+    border-top: 0px;
+    border-bottom: 7.5px solid #111111;
+    border-right: 0px;
+    border-left: 0px;
+  }
+
+
+/*Meu pau*/
+  .vertimg {
+    background-color: #111111;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 5px solid #111111;
+  }
+
+  .pourra {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #111111;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .images {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 5px solid #3242a8;
+    background-color: #3242a8;
+  }
+
+  .imagesres {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 5px solid #3242a8;
+    background-color: #3242a8;
+  }
+
+  .pourra1 {
+    width: 74.8%;
+    height: 100%;
+    text-align: center;
+    background-color: #111111;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #caralho {
+    text-align: center;
+  }
+
+  .central {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+
+  .inicio {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+  .inicio.show {
+      opacity: 1;
+      transform: translateY(0);
+}

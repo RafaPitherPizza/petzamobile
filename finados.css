@@ -1,0 +1,32 @@
+* {
+    font-family:'Archivo Black';
+}
+
+body {
+    background-color: #111111;
+}
+
+.title {
+    height: 50px;
+      text-align: center;
+      color: #3242a8;
+      font-size: 30px;
+  }
+
+  .central {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: auto;
+  }
+
+  .inicio {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.inicio.show {
+    opacity: 1;
+    transform: translateY(0);
+}
